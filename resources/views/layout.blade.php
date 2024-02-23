@@ -9,8 +9,7 @@
 
 
 
-
-<nav class="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+<nav class="border-gray-200" style="background-color: black !important; dark:bg-gray-800 dark:border-gray-700;">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-5 p-7">
         <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="skilltreklogo.svg" class="h-30" alt="Skilltrek Logo" />
@@ -18,6 +17,8 @@
         </a>
     </div>
 </nav>
+
+
 
 </body>
 </html>
