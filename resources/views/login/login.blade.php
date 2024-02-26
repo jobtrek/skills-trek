@@ -8,59 +8,60 @@
 </head>
 
 <body class="flex">
-    <div class="sm:w-full sm:max-w-sm">
-        <img class="mx-auto h-10 w-auto"
-            src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="Your Company">
-        <h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Connectez-vous à votre compte</h2>
+
+<div class="flex-1 flex items-center flex-col justify-center">
+
+    <nav class="flex items-center p-10">
+        <a href="/login" class="flex items-center">
+            <img src="{{ asset('img/LogoSkillsTrek.svg') }}" class="w-20" alt="Skilltrek Logo" />
+            <span class="ml-2 text-3xl font-bold">SkillTrek</span>
+        </a>
+    </nav>
+
+    <div class="sm:w-full sm:max-w-xl">
+        <h2 class="mt-10 text-left text-3xl font-bold leading-9 tracking-tight text-gray-900">Sign in</h2>
     </div>
 
-    <div class="flex-1 flex items-center flex-col justify-center">
-
-
-        <div class="mt-10 sm:w-full sm:max-w-sm ">
-            <form class="space-y-6" action="#" method="POST">
-                <div class="relative h-11 w-full min-w-[200px]">
-                    <input
-                        class="peer h-full w-full border-b border-blue-gray-200 bg-transparent pt-4 pb-1.5 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border-blue-gray-200 focus:border-gray-900 focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50" />
-                    <label
-                        class="after:content[' '] pointer-events-none absolute left-0  -top-2.5 flex h-full w-full select-none !overflow-visible truncate text-sm font-normal leading-tight text-gray-500 transition-all after:absolute after:-bottom-2.5 after:block after:w-full after:scale-x-0 after:border-b-2 after:border-gray-500 after:transition-transform after:duration-300 peer-placeholder-shown:leading-tight peer-placeholder-shown:text-blue-gray-500 peer-focus:text-sm peer-focus:leading-tight peer-focus:text-gray-900 peer-focus:after:scale-x-100 peer-focus:after:border-gray-900 peer-disabled:text-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500">
-                        Static
-                    </label>
-                </div>
+    <div class="mt-10 sm:w-full sm:max-w-xl">
+        <form class="space-y-6" action="#" method="POST">
+            <div class="relative h-16 w-full min-w-[400px] flex flex-col items-start">
+                <label
+                    class="after:content[' '] pointer-events-none absolute left-0 -top-4.5 flex h-full w-full select-none font-medium !overflow-visible truncate text-lg leading-tight text-gray-900 transition-all after:absolute after:-bottom-4.5 after:block after:w-full after:scale-x-0 after:border-b-2 after:border-gray-500 after:transition-transform after:duration-300 peer-placeholder-shown:leading-tight peer-placeholder-shown:text-blue-gray-500 peer-focus:text-lg peer-focus:leading-tight peer-focus:text-gray-900 peer-focus:after:scale-x-100 peer-focus:after:border-gray-900 peer-disabled:text-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500">
+                    Static
+                </label>
+                <input
+                    class="peer h-full w-full border-b border-blue-gray-200 bg-transparent pt-5 pb-2 mt-2 font-sans text-lg font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border-blue-gray-200 focus:border-gray-900 focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50"
+                    placeholder="Enter your email address" />
+            </div>
 
             <div>
                 <div class="flex items-center justify-between">
-                    <label for="password" class="after:content[' '] pointer-events-none absolute left-0  -top-2.5 flex h-full w-full select-none !overflow-visible truncate text-sm font-normal leading-tight text-gray-500 transition-all after:absolute after:-bottom-2.5 after:block after:w-full after:scale-x-0 after:border-b-2 after:border-gray-500 after:transition-transform after:duration-300 peer-placeholder-shown:leading-tight peer-placeholder-shown:text-blue-gray-500 peer-focus:text-sm peer-focus:leading-tight peer-focus:text-gray-900 peer-focus:after:scale-x-100 peer-focus:after:border-gray-900 peer-disabled:text-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500">Mot de passe</label>
-                    <div class="text-sm">
-                        <a href="#" class="font-semibold text-indigo-600 hover:text-indigo-500">Mot de passe oublié?</a>
+                    <label for="password" class="block text-lg font-medium leading-6 text-gray-900">Password</label>
+                    <div class="text-lg">
+                        <a href="#"
+                           class="font-semibold text-indigo-600 hover:text-indigo-500">Forgot password?</a>
                     </div>
                 </div>
-                <div class="mt-2">
-                    <input id="password" name="password" type="password" autocomplete="current-password" required
-                           class="peer h-full w-full border-b border-blue-gray-200 bg-transparent pt-4 pb-1.5 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border-blue-gray-200 focus:border-gray-900 focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50" />
+                <div class="mt-4">
+                    <input class="peer h-full w-full border-b border-blue-gray-200 bg-transparent pt-5 pb-2 font-sans text-lg font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border-blue-gray-200 focus:border-gray-900 focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50"
+                           placeholder="Enter your Password" />
                 </div>
             </div>
 
             <div>
                 <button type="submit"
-                        class="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
-                    Se connecter</button>
+                        class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-lg px-8 py-4 me-2 mb-4 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+                        style="width: 100%;">
+                    Login
+                </button>
             </div>
-            </form>
-
-        <p class="mt-10 text-center text-sm text-gray-500">
-            Pas encore membre?
-            <a href="#"
-               class="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">Commencez un essai gratuit de 14
-                jours</a>
-        </p>
-        </div>
+        </form>
     </div>
+</div>
 
-
-    <div class="flex-1">
-        <img src="{{ asset('img/SkillsTrekLogin.png') }}" alt="SkillsTrek" class="w-full h-full object-cover">
-    </div>
+<div class="flex-1">
+    <img src="{{ asset('img/SkillsTrekLogin.png') }}" alt="SkillsTrek" class="w-full h-full object-cover">
+</div>
 
 </body>
 
