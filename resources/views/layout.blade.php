@@ -10,7 +10,6 @@
 <body>
 
 
-
 <nav class="border-gray-200" style="background-color: black !important; dark:bg-gray-800; dark:border-gray-700;">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between p-10">
         <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
