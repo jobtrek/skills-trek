@@ -30,7 +30,7 @@
                     <div class="relative h-16 w-full min-w-[400px] flex flex-col items-start">
                         <label
                             class="after:content[' '] pointer-events-none absolute left-0 -top-4.5 flex h-full w-full select-none font-medium !overflow-visible truncate text-lg leading-tight text-gray-900 transition-all after:absolute after:-bottom-4.5 after:block after:w-full after:scale-x-0 after:border-b-2 after:border-gray-500 after:transition-transform after:duration-300 peer-placeholder-shown:leading-tight peer-placeholder-shown:text-blue-gray-500 peer-focus:text-lg peer-focus:leading-tight peer-focus:text-gray-900 peer-focus:after:scale-x-100 peer-focus:after:border-gray-900 peer-disabled:text-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500">
-                            Static
+                            Email
                         </label>
                         <label>
                             <input
