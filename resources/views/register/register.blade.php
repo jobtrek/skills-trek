@@ -39,13 +39,13 @@
 
                 <div>
                     <div class="flex items-center justify-between">
-                        <label for="password" class="block text-lg font-medium leading-6 text-gray-900">Password</label>
+                        <label for="password" class="block text-lg font-medium leading-6 text-gray-900">Username</label>
 
                     </div>
                     <div class="mt-4">
                         <label>
                             <input class="peer h-full w-full border-b border-blue-gray-200 bg-transparent pt-2 font-sans text-lg font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border-blue-gray-200 focus:border-gray-900 focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50"
-                                   placeholder="Enter your Password" />
+                                   placeholder="Enter your Username" />
                         </label>
                     </div>
                 </div>
@@ -53,14 +53,11 @@
                 <div>
                     <div class="flex items-center justify-between">
                         <label for="password" class="block text-lg font-medium leading-6 text-gray-900">Password</label>
-                        <div class="text-lg">
-                            <a href="#"
-                               class="font-semibold text-indigo-600 hover:text-indigo-500">Forgot password?</a>
-                        </div>
+
                     </div>
                     <div class="mt-4">
                         <label>
-                            <input class="peer h-full w-full border-b border-blue-gray-200 bg-transparent pt-5 pb-2 font-sans text-lg font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border-blue-gray-200 focus:border-gray-900 focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50"
+                            <input class="peer h-full w-full border-b border-blue-gray-200 bg-transparent pt-2 pb-2 font-sans text-lg font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border-blue-gray-200 focus:border-gray-900 focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50"
                                    placeholder="Enter your Password" />
                         </label>
                     </div>
@@ -70,7 +67,7 @@
                     <button type="submit"
                             class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-lg px-8 py-4 me-2 mb-4 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
                             style="width: 100%;">
-                        Login
+                        Register
                     </button>
                 </div>
             </form>
