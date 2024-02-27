@@ -21,10 +21,24 @@ Route::get('/login', function () {
     return view('login.login');
 });
 
+
 Route::get('/register', function () {
     return view('register.register');
 });
 
+Route::get('/admin', function () {
+    return view('admin.dashboard');
+});
+
 Route::get('Forms', function () {
     return view('Forms.valideted');
+});
+
+
+Route::get('/admin/forms', function () {
+    return view('admin.forms');
+});
+
+Route::get('/admin/groups', function () {
+    return view('admin.groups');
 });

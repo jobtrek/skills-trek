@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Admin</title>
+    <title>SkillTrek - Register</title>
+    <link rel="icon" type="image/x-icon" href="skilltreklogo.svg">
     @vite('resources/css/app.css')
 </head>
 
@@ -14,7 +15,7 @@
 
     <nav class="flex p-10 mt-4 ml-4">
         <a href="/login" class="flex items-center">
-            <img src="{{ asset('img/LogoSkillsTrek.svg') }}" class="w-28" alt="Skilltrek Logo" />
+            <img src="{{ asset('img/LogoSkillsTrek.svg') }}" class="w-20" alt="Skilltrek Logo" />
             <span class="ml-2 text-4xl font-bold">SkillTrek</span>
         </a>
     </nav>
