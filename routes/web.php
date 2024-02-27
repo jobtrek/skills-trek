@@ -26,6 +26,10 @@ Route::get('/register', function () {
     return view('register.register');
 });
 
+Route::get('/admin', function () {
+    return view('admin.forms');
+});
+
 Route::get('/admin/forms', function () {
     return view('admin.forms');
 });
