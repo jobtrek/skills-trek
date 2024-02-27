@@ -37,3 +37,7 @@ Route::get('/admin/forms', function () {
 Route::get('/admin/groups', function () {
     return view('admin.groups');
 });
+
+Route::get('/admin/settings', function () {
+    return view('admin.settings');
+});
