@@ -14,7 +14,7 @@
 
     <nav class="flex p-10 mt-4 ml-4">
         <a href="/login" class="flex items-center">
-            <img src="{{ asset('img/LogoSkillsTrek.svg') }}" class="w-28" alt="Skilltrek Logo" />
+            <img src="{{ asset('img/LogoSkillsTrek.svg') }}" class="w-20" alt="Skilltrek Logo" />
             <span class="ml-2 text-4xl font-bold">SkillTrek</span>
         </a>
     </nav>
