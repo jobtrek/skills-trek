@@ -30,6 +30,11 @@ Route::get('/admin', function () {
     return view('admin.dashboard');
 });
 
+Route::get('Forms', function () {
+    return view('Forms.valideted');
+});
+
+
 Route::get('/admin/forms', function () {
     return view('admin.forms');
 });
