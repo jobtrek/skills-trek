@@ -21,9 +21,15 @@ Route::get('/login', function () {
     return view('login.login');
 });
 
+
+Route::get('/register', function () {
+    return view('register.register');
+});
+
 Route::get('/admin/forms', function () {
     return view('admin.forms');
 });
-Route::get('/register', function () {
-    return view('register.register');
+
+Route::get('/admin/groups', function () {
+    return view('admin.groups');
 });
