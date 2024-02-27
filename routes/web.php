@@ -24,3 +24,7 @@ Route::get('/login', function () {
 Route::get('/register', function () {
     return view('register.register');
 });
+
+Route::get('Forms', function () {
+    return view('Forms.valideted');
+});
