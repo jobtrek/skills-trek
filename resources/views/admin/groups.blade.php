@@ -6,7 +6,7 @@
 
 @section('body')
     <a href="#">
-        <img src="{{ asset('/icons/newform.svg') }}" class="fixed right-20" alt=""/>
+        <img src="{{ asset('/icons/newgroup.svg') }}" class="fixed right-20" alt=""/>
     </a>
 
 @endsection
