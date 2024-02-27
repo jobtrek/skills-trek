@@ -27,7 +27,7 @@ Route::get('/register', function () {
 });
 
 Route::get('/admin', function () {
-    return view('admin.forms');
+    return view('admin.dashboard');
 });
 
 Route::get('/admin/forms', function () {
