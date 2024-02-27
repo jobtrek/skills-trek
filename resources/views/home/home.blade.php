@@ -14,7 +14,6 @@
 
     <p class="text-center mt-10">SKILLTREK</p>
 
-    <h2 class="text-center mt-5 text-3xl">Only admins can login</h2>
 
     <div class="flex justify-center items-center mb-10 mt-10">
         <a href="/login" class="bg-black hover:bg-gray-900 text-white font-bold py-4 px-16 rounded inline-flex items-center">
