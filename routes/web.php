@@ -23,4 +23,7 @@ Route::get('/login', function () {
 
 Route::get('/admin/forms', function () {
     return view('admin.forms');
+=======
+Route::get('/register', function () {
+    return view('register.register');
 });
