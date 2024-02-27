@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<aside id="logo-sidebar" class=" w-96 min-h-screen border-r" aria-label="Sidebar">
+<aside id="logo-sidebar" class="w-96 min-h-screen border-r float-left" aria-label="Sidebar">
     <nav>
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between p-10">
             <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
@@ -55,7 +55,19 @@
             </li>
         </ul>
     </div>
-
 </aside>
+
+<div class="p-4 sm:ml-96">
+        <div class="mx-10 mt-10 grid grid-cols-3 gap-4 mb-4">
+                    <span class=" self-center text-5xl font-semibold whitespace-nowrap dark:text-black">@yield('pagetitle')</span>
+            <div>
+                <a href="#">
+                    <svg class="fixed right-20 w-8 h-8 text-gray-800 dark:text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7.75 4H19M7.75 4a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0M1 4h2.25m13.5 6H19m-2.25 0a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0M1 10h11.25m-4.5 6H19M7.75 16a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0M1 16h2.25"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+</div>
 </body>
 </html>
