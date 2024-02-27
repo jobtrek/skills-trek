@@ -61,13 +61,19 @@
         <div class="mx-10 mt-10 grid grid-cols-3 gap-4 mb-4">
                     <span class=" self-center text-5xl font-semibold whitespace-nowrap dark:text-black">@yield('pagetitle')</span>
             <div>
-                <a href="#">
-                    <svg class="fixed right-20 w-8 h-8 text-gray-800 dark:text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7.75 4H19M7.75 4a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0M1 4h2.25m13.5 6H19m-2.25 0a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0M1 10h11.25m-4.5 6H19M7.75 16a2.25 2.25 0 0 1-4.5 0m4.5 0a2.25 2.25 0 0 0-4.5 0M1 16h2.25"/>
-                    </svg>
+                <a href="/admin/profile" class="text-gray-500 rounded-lg dark:hover:bg-black dark:hover:text-white group">
+                    <img src="{{ asset('/icons/gear.svg') }}" class="w-15 fixed right-20"/>
+
                 </a>
             </div>
         </div>
 </div>
+
+<div>
+
+</div>
+
+@yield('body')
+
 </body>
 </html>
