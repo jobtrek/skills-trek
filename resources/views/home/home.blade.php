@@ -3,7 +3,7 @@
 @section('title', "SkillTrek - Home")
 
 @section('body')
-    <section class="bg-[url('../../../public/skilltrekbckground.svg')] bg-cover h-screen bg-no-repeat bg-center">
+    <section class="bg-[url('../../../public/skilltrekbckground.svg')] bg-cover bg-center bg-no-repeat" style="height: 55vh;">
         <div class="flex ">
             <a class="block max-w-lg mt-10 mx-10 p-10 border border-gray-200 shadow hover:bg-gray-100 dark:border-gray-700 dark:hover:bg-gray-700" style="background-color: black;">
                 <h1 class="mb-7 text-5xl font-semibold tracking-tight text-white dark:text-white">A forms creator <br> website.</h1>
@@ -24,7 +24,7 @@
         </a>
     </div>
 
-    <div style="bottom: 0; left: 0; width: 100%;">
+    <div class="fixed w-screen bottom-0">
         <div class="h-28" style="background-color: #D9D9D9">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between p-10">
             </div>
