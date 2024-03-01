@@ -10,6 +10,7 @@
             <img src="{{ asset('/icons/myprofile.svg') }}" class="w-64" alt=""/>
         </a>
     </div>
+
     <div class="flex justify-items-center">
         <div class="rounded-lg mx-12 mt-10 text-center border min-h-96 border-gray-200">
             <div class="flex flex-col items-center justify-center h-full"> <!-- Center content vertically -->
