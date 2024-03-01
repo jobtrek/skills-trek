@@ -8,7 +8,6 @@
     <title>@yield('title')</title>
 </head>
 <body>
-
 <aside id="logo-sidebar" class="w-96 min-h-screen border-r float-left" aria-label="Sidebar">
     <nav>
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between p-10">
