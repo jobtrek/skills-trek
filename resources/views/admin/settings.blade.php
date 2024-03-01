@@ -5,21 +5,21 @@
 @section('pagetitle', "Settings")
 
 @section('body')
-        <div class="mb-4 mx-12">
-            <a class="mx-96 p-2 grid grid-cols-3 gap-4">
-                <img src="{{ asset('/icons/myprofile.svg') }}" class="w-64" alt=""/>
-            </a>
-        </div>
-        <div class="mx-80 border border-gray-200 max-w-6xl min-h-full rounded-lg">
-            <div class="mt-10 text-center">
-                <div class=" mb-4">
-                    <a class="mx-48 p-2 grid grid-cols-3 gap-4">
-                        <img src="{{ asset('/icons/photoprofile.svg') }}" class="w-32"  alt=""/>
-                    </a>
-                    <p class="text-2xl font-bold ml-2">Firstname Lastname</p>
-                </div>
+    <div class="mb-4 mx-12">
+        <a class="mx-96 p-2 grid grid-cols-3 gap-4">
+            <img src="{{ asset('/icons/myprofile.svg') }}" class="w-64" alt=""/>
+        </a>
+    </div>
+    <div class="flex justify-items-center">
+        <div class="rounded-lg mx-12 mt-10 text-center border min-h-96 border-gray-200">
+            <div class="flex flex-col items-center justify-center h-full"> <!-- Center content vertically -->
+                <a class="p-2 grid grid-cols-3 gap-4">
+                    <img src="{{ asset('/icons/photoprofile.svg') }}" class="w-32"  alt=""/>
+                </a>
+                <p class="text-2xl font-bold mt-4">Firstname Lastname</p>
             </div>
-            <form class="max-w-sm mx-auto">
+        </div>
+        <form class="mx-0 w-full mt-10 h-96 border border-gray-200">
                 <div>
                     <label for="website-admin" class="block mb-2 text-xl font-bold text-gray-900 dark:text-black">Username</label>
                     <div class="flex">
