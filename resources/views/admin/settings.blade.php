@@ -64,6 +64,7 @@
                             <path d="M15.5834 8.25L12.7142 10.5417C11.7701 11.2933 10.2209 11.2933 9.27674 10.5417L6.41675 8.25" stroke="black" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
 
+
                     </span>
                         <input readonly type="text" id="website-admin" class="rounded-none rounded-e-lg bg-gray-50 border border-gray-400 text-white focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-96 text-sm p-2.5  dark:bg-gray-200 dark:border-black-600 dark:placeholder-black dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Bonnie@Green.com">
                     </div>
