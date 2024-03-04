@@ -30,10 +30,20 @@ Route::get('/admin', function () {
     return view('admin.dashboard');
 });
 
+Route::get('/forms/valid', function () {
+    return view('forms.success');
+});
+
+
+
 Route::get('/admin/forms', function () {
     return view('admin.forms');
 });
 
 Route::get('/admin/groups', function () {
     return view('admin.groups');
+});
+
+Route::get('/admin/settings', function () {
+    return view('admin.settings');
 });

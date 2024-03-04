@@ -8,7 +8,6 @@
     <title>@yield('title')</title>
 </head>
 <body>
-
 <aside id="logo-sidebar" class="w-96 min-h-screen border-r float-left" aria-label="Sidebar">
     <nav>
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between p-10">
@@ -61,7 +60,7 @@
         <div class="mx-10 mt-10 grid grid-cols-3 gap-4 mb-4">
                     <span class=" self-center text-5xl font-semibold whitespace-nowrap dark:text-black">@yield('pagetitle')</span>
             <div>
-                <a href="/admin/profile" class="text-gray-500 rounded-lg dark:hover:bg-black dark:hover:text-white group">
+                <a href="/admin/settings" class="text-gray-500 rounded-lg dark:hover:bg-black dark:hover:text-white group">
                     <img src="{{ asset('/icons/gear.svg') }}" class="w-15 fixed right-20"/>
 
                 </a>
