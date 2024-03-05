@@ -13,11 +13,13 @@
 
     <div class="flex-1 flex flex-col justify-center">
 
-        <nav class="flex p-10 mt-4 ml-4">
-            <a href="/" class="flex items-center">
-                <img src="{{ asset('img/LogoSkillsTrek.svg') }}" class="w-20" alt="Skilltrek Logo" />
-                <span class="ml-2 text-4xl font-bold">SkillTrek</span>
-            </a>
+        <nav>
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between p-10">
+                <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img src="{{ asset('skilltreklogo.svg') }}" class="w-20" alt="Skilltrek Logo" />
+                    <span class=" self-center text-5xl font-semibold whitespace-nowrap dark:text-black">SkillTrek</span>
+                </a>
+            </div>
         </nav>
 
         <div class="flex-1 flex items-center flex-col justify-center">
@@ -70,7 +72,6 @@
     <div class="flex-1">
         <img src="{{ asset('img/SkillsTrekLogin.png') }}" alt="SkillsTrek" class="w-full h-screen object-cover">
     </div>
-
 </body>
 
 </html>
