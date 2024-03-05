@@ -1,8 +1,8 @@
 @extends('sidebar')
 
-@section('title', "SkillTrek - forms")
+@section('title', "SkillTrek - Forms")
 
-@section('pagetitle', "forms")
+@section('pagetitle', "Forms")
 
 @section('body')
     <a href="#">

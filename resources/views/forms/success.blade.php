@@ -1,7 +1,7 @@
 @extends('layout')
 
 
-@section('title', "SkillTrek - success")
+@section('title', "SkillTrek - Success")
 
 @section('body')
     <div class="flex justify-center">
