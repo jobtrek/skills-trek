@@ -12,7 +12,7 @@
 
     <form  method="post">
         @csrf
-
+        @include('template.templateQuestion')
     </form>
 </div>
 
