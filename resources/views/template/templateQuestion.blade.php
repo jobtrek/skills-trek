@@ -20,8 +20,8 @@
 
     <!-- Button to duplicate/remove the question -->
     <div class="flex items-end ml-auto ">
-        <img src="{{ asset('file.svg') }}" class="w-10 " alt="file Logo" />
-        <img src="{{ asset('trash.svg') }}" class="w-10 ml-4 " alt="trash Logo" />
+        <img src="{{ asset('file.svg') }}" class="w-12 " alt="file Logo" />
+        <img src="{{ asset('trash.svg') }}" class="w-12 ml-4 " alt="trash Logo" />
     </div>
 
 </div>
