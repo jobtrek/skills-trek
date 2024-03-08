@@ -1,6 +1,6 @@
 
 @vite('resources/css/app.css')
-<div class="bg-gray-300 ml-8 mr-8 mt-8 p-8 rounded-lg shadow-md w-full">
+<div class="bg-gray-300 mt-8 p-8 rounded-lg shadow-md w-full">
     <form  method="post">
         @csrf
 

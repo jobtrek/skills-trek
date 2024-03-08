@@ -1,22 +1,23 @@
 
 @extends('layout')
 
-@section('title', "SkillTrek - success")
+@section('title', "SkillTrek - templateCreate")
 @section('body')
 
 <body class="bg-gray-200">
-<div class="flex items-start justify-center h-screen">
-    @include('template.templateTitle')
+
+    <form action="">
+    <div class="flex flex-col">
+        <div class="ml-64 mr-64">
+            @include('template.templateTitle')
+            @include('template.templateQuestion')
+        </div>
 
 
 
-    <form  method="post">
-        @csrf
-        @include('template.templateQuestion')
+    </div>
     </form>
-</div>
-
-<button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600 my-custom-button-class">Soumettre</button>
+    <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600 my-custom-button-class">Soumettre</button>
 
 
 </body>
