@@ -2,7 +2,7 @@
 
 @section('title', "SkillTrek - forms")
 
-@section('pagetitle', "forms")
+@section('pagetitle', "Forms")
 
 @section('body')
     <a href="#">
