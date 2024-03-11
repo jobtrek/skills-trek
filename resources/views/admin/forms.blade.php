@@ -1,6 +1,6 @@
 @extends('sidebar')
 
-@section('title', "SkillTrek - forms")
+@section('title', "SkillTrek - Forms")
 
 @section('pagetitle', "Forms")
 

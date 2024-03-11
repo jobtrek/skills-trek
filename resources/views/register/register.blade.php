@@ -15,7 +15,7 @@
 
     <nav>
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between p-10">
-            <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src="{{ asset('skilltreklogo.svg') }}" class="w-20" alt="Skilltrek Logo" />
                 <span class=" self-center text-5xl font-semibold whitespace-nowrap dark:text-black">SkillTrek</span>
             </a>
