@@ -21,6 +21,17 @@ Route::get('/login', function () {
     return view('login.login');
 });
 
+Route::get('/title', function () {
+    return view('template.templateTitle');
+});
+
+Route::get('/create', function () {
+    return view('template.templateCreate');
+});
+
+Route::get('/createForms', function () {
+    return view('template.templateQuestion');
+});
 
 Route::get('/register', function () {
     return view('register.register');
