@@ -45,7 +45,9 @@ Route::get('/forms/valid', function () {
     return view('forms.success');
 });
 
-
+Route::get('/example', function () {
+    return view('formsExample.exampleForms');
+});
 
 Route::get('/admin/forms', function () {
     return view('admin.forms');
